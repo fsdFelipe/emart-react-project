@@ -1,12 +1,15 @@
 {
-  "name": "emart-project",
+  "name": "emart-react-project",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "bootstrap": "5.1.3",
     "react": "18.0.0",
     "react-dom": "18.0.0",
+    "react-redux": "8.0.2",
+    "react-router-dom": "6.3.0",
     "react-scripts": "4.0.0"
   },
   "devDependencies": {
