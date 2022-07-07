@@ -1,2 +1,2 @@
-# emart-react-project
+# emart-react
 Created with CodeSandbox
