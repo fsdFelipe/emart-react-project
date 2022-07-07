@@ -3,7 +3,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#">
+        <a className="navbar-brand fw-bold fs-4" href="#">
           Minha Loja
         </a>
         <button
