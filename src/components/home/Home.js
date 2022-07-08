@@ -1,3 +1,5 @@
+import Produtos from "../produtos/produtos";
+
 export default function Home() {
   return (
     <div className="hero">
@@ -17,6 +19,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Produtos />
     </div>
   );
 }
