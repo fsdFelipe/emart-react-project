@@ -45,23 +45,48 @@ export default function Produtos() {
     );
   };
 
+  const filterProduct = (cat) => {
+    const upDatedList = data.filter((x) => x.category === cat);
+    setFilter(upDatedList);
+  };
+
   const ShowProdutos = () => {
     return (
       <>
         <div className="buttons d-flex justify-content-center mb-5 pb-5">
-          <button type="button" className="btn btn-outline-dark me-2">
+          <button
+            type="button"
+            className="btn btn-outline-dark me-2"
+            onClick={() => setFilter(data)}
+          >
             All
           </button>
-          <button type="button" className="btn btn-outline-dark me-2">
+          <button
+            type="button"
+            className="btn btn-outline-dark me-2"
+            onClick={() => filterProduct("men's clothing")}
+          >
             Men's clotching
           </button>
-          <button type="button" className="btn btn-outline-dark me-2">
+          <button
+            type="button"
+            className="btn btn-outline-dark me-2"
+            onClick={() => filterProduct("women's clothing")}
+          >
             Woman's Clotches
           </button>
-          <button type="button" className="btn btn-outline-dark me-2">
-            Jewerely
+          <button
+            type="button"
+            className="btn btn-outline-dark me-2"
+            onClick={() => filterProduct("jewelery")}
+          >
+            Jewelery
           </button>
-          <button type="button" className="btn btn-outline-dark me-2">
+          <button
+            type="button"
+            className="btn btn-outline-dark me-2"
+            onClick={() => filterProduct("electronics")}
+          >
             Eletronics
           </button>
         </div>
