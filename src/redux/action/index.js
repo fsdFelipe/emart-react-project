@@ -1,8 +1,8 @@
 //Add itens ao carrinho
-export const addCart = (product) => {
+export const addCart = (produto) => {
   return {
     type: "ADDITEM",
-    playload: product
+    playload: produto
   };
 };
 
